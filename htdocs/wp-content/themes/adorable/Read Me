@@ -1,0 +1,42 @@
+ADORABLE CHILD THEME
+
+Setup:
+
+•Install the Genesis Framework
+
+•Install the Adorable Theme
+
+•Install the Genesis Slider Plugin (Optional)
+http://wordpress.org/extend/plugins/genesis-slider/
+
+•Install the Image Widget for Sidebar Ads (Optional)
+http://wordpress.org/extend/plugins/image-widget/
+
+
+WIDGET AREAS
+Primary Sidebar - Your main sidebar shown on all pages that include a sidebar.
+Secondary Sidebar - The smaller of the two sidebars, shown on three column layouts.
+Featured Top Full Width - The full width area shown at the top of your home page.
+Featured Top Left - The left widget beneath the full width widget area.
+Featured Top Right - The right widget beneath the full width widget area.
+Featured Bottom Left - The left widget beneath the featured top left widget area.
+Featured Bottom Right - The right widget beneath the featured top right widget area.
+Footer 1 - The first column of the footer widgets section.
+Footer 2 - This is the second column of the footer widgets section.
+Footer 3 - This is the third column of the footer widgets section. 
+
+FEATURED IMAGES
+By default WordPress will create a thumbnail image for each image you upload and the size can be specified in your dashboard under Settings > Media. In addition, the Adorable child theme creates the following thumbnail images you'll see below, which are defined (and can be modified) in the functions.php file. These are the recommended thumbnail sizes that are used on the Adorable child theme demo site.
+
+blog-excerpt - 250px by 175px (to the left of each blog post on the "blog" page)
+
+sidebar-featured - 290px by 175px (Above the Featured Posts/Pages widgets in the sidebar)
+
+home-thumb - 300px by 200 px (used on the home page above featured posts)
+
+home-top - 660px by 200px (used at the top of home page)
+
+
+SUPPORT
+For support please visit:
+http://prettydarncute.com/adorable-theme/adorable-theme-setup-tutorials/
