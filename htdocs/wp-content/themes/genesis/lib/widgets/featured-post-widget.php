@@ -57,7 +57,7 @@ class Genesis_Featured_Post extends WP_Widget {
 			'extra_num'               => '',
 			'extra_title'             => '',
 			'more_from_category'      => '',
-			'more_from_category_text' => __( 'More Posts from this Category', 'genesis' ),
+			'more_from_category_text' => __( 'Еще статьи из этой рубрики', 'genesis' ),
 		);
 
 		$widget_ops = array(
