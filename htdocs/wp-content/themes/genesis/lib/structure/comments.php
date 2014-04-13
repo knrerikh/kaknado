@@ -76,7 +76,7 @@ function genesis_do_comments() {
 			'context' => 'entry-comments',
 		) );
 
-		echo apply_filters( 'genesis_title_comments', __( '<h3>Comments</h3>', 'genesis' ) );
+		echo apply_filters( 'genesis_title_comments', __( '<h3>Коментарии</h3>', 'genesis' ) );
 		echo '<ol class="comment-list">';
 			do_action( 'genesis_list_comments' );
 		echo '</ol>';
@@ -389,7 +389,7 @@ function genesis_comment_form_args( array $defaults ) {
 
 	$author = '<p class="comment-form-author">' .
 	          '<input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30" tabindex="1"' . $aria_req . ' />' .
-	          '<label for="author">' . __( 'Name', 'genesis' ) . '</label> ' .
+	          '<label for="author">' . __( 'Имя', 'genesis' ) . '</label> ' .
 	          ( $req ? '<span class="required">*</span>' : '' ) .
 	          '</p>';
 
@@ -400,17 +400,18 @@ function genesis_comment_form_args( array $defaults ) {
 	         '</p>';
 
 	$url = '<p class="comment-form-url">' .
-	       '<input id="url" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" tabindex="3" />' .
-	       '<label for="url">' . __( 'Website', 'genesis' ) . '</label>' .
+	       '<input id="url" name="url" type="hidden" value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" tabindex="3" />' .
+
 	       '</p>';
 
+    //'<label for="url">' . __( 'Website', 'genesis' ) . '</label>' .
 	$comment_field = '<p class="comment-form-comment">' .
 	                 '<textarea id="comment" name="comment" cols="45" rows="8" tabindex="4" aria-required="true"></textarea>' .
 	                 '</p>';
 
 	$args = array(
 		'comment_field'        => $comment_field,
-		'title_reply'          => __( 'Speak Your Mind', 'genesis' ),
+		'title_reply'          => __( 'Ваш комментарий', 'genesis' ),
 		'comment_notes_before' => '',
 		'comment_notes_after'  => '',
 		'fields'               => array(

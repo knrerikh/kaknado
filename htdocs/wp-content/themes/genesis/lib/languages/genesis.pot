@@ -990,7 +990,7 @@ msgstr ""
 
 #: lib/structure/comments.php:401
 msgid "Speak Your Mind"
-msgstr ""
+msgstr "Ваш комментарий"
 
 #: lib/structure/footer.php:145
 msgid "Copyright"

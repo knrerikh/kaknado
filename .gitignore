@@ -2,3 +2,5 @@ htdocs/wp-config.php
 htdocs/.buildpath
 htdocs/.project
 htdocs/.settings/
+htdocs/pma
+.idea

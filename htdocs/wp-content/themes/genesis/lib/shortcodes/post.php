@@ -330,7 +330,7 @@ function genesis_post_categories_shortcode( $atts ) {
 
 	$defaults = array(
 		'sep'    => ', ',
-		'before' => __( 'Filed Under: ', 'genesis' ),
+		'before' => __( 'Рубрики: ', 'genesis' ),
 		'after'  => '',
 	);
 
